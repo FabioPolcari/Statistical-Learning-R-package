@@ -1,0 +1,17 @@
+The code needed for the package installation include the R scripts package_creation.R, class_regr.R and clustering.R.
+
+The first one contains the code for the creation of the whole package, while the last two are the scripts containing the functions.
+
+1. The first step is to open package creation.R, install the needed libraries specified in the comments and upload them into the working space.
+2. Then write a valid address in the path_to_package. This will be the path used by the system for creating the package.
+3. Then execute create_package command. The system will create a folder called “StatLearning” at the path previously specified.
+4. Open this folder and find an other one called R. Open it.
+5. Then put clustering.R and class_regr.R into this folder.
+6. Then execute the three following commands.
+7. devtools::document create a the documentation of the functions.
+8. devtools::check check if everything is corrected.
+9. devtools::install actually install the package on the computer.
+
+roxygenise command will be needed to save changes to the functions.
+
+10. The last step is to upload the package in the workin space with library(StatLearning).

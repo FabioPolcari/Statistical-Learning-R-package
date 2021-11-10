@@ -12,4 +12,5 @@ The two functions are:
                    The performance metrics are obtained with a cross-validation, whose number of folds are specified by the user. 
                   
 2.  clustering() : it will execute k-medoid, k-means and hierarchical clustering on the dataset provided by the user, who can also decide the number of partitions,
-                   the distance metric used in k-medoid and in the hierarchical clustering, as well as the type of linkage used in the latter.
+                   the distance metric used in k-medoid and in the hierarchical clustering, as well as the type of linkage used in the latter. The output is a table showing 
+                   the ASW (average silhouette width) and CHC (Calinski-Harabasz criterion) calculated on each resulting partition. 

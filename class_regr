@@ -4,7 +4,7 @@
 #' in input. It shows performance metrics for each algorithm in order to allow
 #' the user to asses which is the best one.
 #'
-#' @author Fabio Polcari
+#' @author Fabio Polcari & Matteo Ruggiero
 #' @param data data.frame. Dataset on which algorithms are executed
 #' @param Y character. Name of the dependent variable to regress/classify. If the variable is
 #' a factor, it has to have 2 levels.

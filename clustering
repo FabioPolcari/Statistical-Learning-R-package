@@ -8,7 +8,7 @@
 #' with two metrics: ASW (average silhouette width), and CHC (Calinski-Harabasz
 #' criterion).
 #'
-#' @author Fabio Polcari 
+#' @author Fabio Polcari & Matteo Ruggiero
 #' @param x data.frame. Dataset on which clustering wish to be performed. It have to be
 #' composed only by numeric variables (it does not support factorial or characters).
 #' @param Kmax numeric. Maximum number of clusters to compute. It must be an integer
